@@ -1,4 +1,3 @@
-== README
 
 # Ruby on Rails: legacy application
 
