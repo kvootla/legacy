@@ -1,5 +1,11 @@
 == README
 
+# Ruby on Rails: legacy application
+
+This is the first legacy application
+[*Ruby on Rails Tutorial*](http://railstutorial.org/)
+by [Krishna Vootla](http://kvootla.com/)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
