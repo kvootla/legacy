@@ -1,8 +1,8 @@
-# Ruby on Rails Tutorial: legacy rails application
-
-This is the legacy rails  application for the
-[*Ruby on Rails Tutorial*](http://railstutorial.org/)
-designed by [Krishna Vootla](http://krishnavootla.com/).
+# Ruby on Rails: legacy application
+ 
+ This is the rails legacy application
+ [*Ruby on Rails Tutorial*](http://railstutorial.org/)
+ by [Krishna Vootla](http://kvootla.com/)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
