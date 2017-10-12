@@ -1,7 +1,7 @@
 # Ruby on Rails: legacy application
  
- This is the rails legacy application
- [*Ruby on Rails Tutorial*](http://railstutorial.org/)
+ This is the legacy application
+ [*Ruby on Rails*](http://railstutorial.org/)
  by [Krishna Vootla](http://kvootla.com/)
 
 This README would normally document whatever steps are necessary to get the
