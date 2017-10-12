@@ -1,4 +1,8 @@
-== README
+# Ruby on Rails Tutorial: legacy rails application
+
+This is the legacy rails  application for the
+[*Ruby on Rails Tutorial*](http://railstutorial.org/)
+designed by [Krishna Vootla](http://krishnavootla.com/).
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
