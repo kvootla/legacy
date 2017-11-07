@@ -21,7 +21,7 @@ echo "Code being simulate for flawless attributes"'''
         }
         stage('Code deploy') {
           steps {
-            sleep 15
+            sleep 20
           }
         }
       }
