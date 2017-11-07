@@ -10,7 +10,8 @@ pipeline {
         }
         stage('Code build') {
           steps {
-            build(propagate: true, wait: true, quietPeriod: 1, job: 'Build')
+            sh '''date 
+echo "Code being simulate for flawless attributes"'''
           }
         }
         stage('Code test') {
