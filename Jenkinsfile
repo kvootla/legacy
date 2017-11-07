@@ -19,6 +19,11 @@ echo "Code being simulate for flawless attributes"'''
             echo 'Build being to trigger the code test'
           }
         }
+        stage('Code deploy') {
+          steps {
+            sleep 15
+          }
+        }
       }
     }
   }
