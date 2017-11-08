@@ -54,6 +54,12 @@ echo "Deploy code triggered to build"'''
             echo 'Integrating testing has completed successfully '
           }
         }
+        stage('Trigger Auto Testing') {
+          steps {
+            sh '''date
+echo "Auto testing completed successfully"'''
+          }
+        }
       }
     }
   }
