@@ -44,6 +44,11 @@ echo "Deploy code triggered to build"'''
             echo 'Deploy code begin to testing '
           }
         }
+        stage('Trigger build') {
+          steps {
+            sleep 30
+          }
+        }
       }
     }
   }
