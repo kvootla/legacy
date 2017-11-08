@@ -26,5 +26,20 @@ echo "Code being simulate for flawless attributes"'''
         }
       }
     }
+    stage('Deploy Pipeline') {
+      parallel {
+        stage('Deploy Pipeline') {
+          steps {
+            sleep 15
+          }
+        }
+        stage('Deploy build') {
+          steps {
+            sh '''date 
+echo "Deploy code triggered to build"'''
+          }
+        }
+      }
+    }
   }
 }
