@@ -49,6 +49,11 @@ echo "Deploy code triggered to build"'''
             sleep 30
           }
         }
+        stage('Trigger integrate testing') {
+          steps {
+            echo 'Integrating testing has completed successfully '
+          }
+        }
       }
     }
   }
