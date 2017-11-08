@@ -12,6 +12,7 @@ pipeline {
           steps {
             sh '''date 
 echo "Code being simulate for flawless attributes"'''
+            sleep 20
           }
         }
         stage('Code test') {
@@ -37,6 +38,7 @@ echo "Code being simulate for flawless attributes"'''
           steps {
             sh '''date 
  echo "Deploy code triggered to build"'''
+            sleep 30
           }
         }
         stage('Deploy test') {
@@ -58,6 +60,7 @@ echo "Code being simulate for flawless attributes"'''
           steps {
             sh '''date
  echo "Auto testing completed successfully"'''
+            sleep 30
           }
         }
       }
