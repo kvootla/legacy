@@ -39,6 +39,11 @@ echo "Code being simulate for flawless attributes"'''
 echo "Deploy code triggered to build"'''
           }
         }
+        stage('Deploy test') {
+          steps {
+            echo 'Deploy code begin to testing '
+          }
+        }
       }
     }
   }
