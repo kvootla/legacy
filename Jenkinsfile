@@ -97,6 +97,12 @@ echo "Code being simulate for flawless attributes"'''
             echo 'Code being a continuous testing'
           }
         }
+        stage('Functional Test') {
+          steps {
+            sh '''date 
+echo "Code being to trigger functional testing"'''
+          }
+        }
       }
     }
   }
