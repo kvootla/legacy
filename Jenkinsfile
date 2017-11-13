@@ -63,6 +63,11 @@ echo "Code being simulate for flawless attributes"'''
             sleep 30
           }
         }
+        stage('Deploy Code') {
+          steps {
+            sleep 25
+          }
+        }
       }
     }
   }
