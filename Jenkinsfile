@@ -92,6 +92,11 @@ echo "Code being simulate for flawless attributes"'''
             echo 'Code being for destructive testing'
           }
         }
+        stage('Continuous Test') {
+          steps {
+            echo 'Code being a continuous testing'
+          }
+        }
       }
     }
   }
