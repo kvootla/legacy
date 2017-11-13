@@ -82,6 +82,11 @@ echo "Code being simulate for flawless attributes"'''
             sleep 30
           }
         }
+        stage('Beta Test') {
+          steps {
+            sleep 25
+          }
+        }
       }
     }
   }
