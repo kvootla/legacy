@@ -109,6 +109,11 @@ echo "Code being to trigger functional testing"'''
 echo "Code being to trigger non functional testing"'''
           }
         }
+        stage('Development Test') {
+          steps {
+            sleep 45
+          }
+        }
       }
     }
   }
