@@ -87,6 +87,11 @@ echo "Code being simulate for flawless attributes"'''
             sleep 25
           }
         }
+        stage('Destructive Test') {
+          steps {
+            echo 'Code being for destructive testing'
+          }
+        }
       }
     }
   }
