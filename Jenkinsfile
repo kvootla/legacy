@@ -70,5 +70,10 @@ echo "Code being simulate for flawless attributes"'''
         }
       }
     }
+    stage('Test Pipeline') {
+      steps {
+        sleep 30
+      }
+    }
   }
 }
