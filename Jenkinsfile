@@ -114,6 +114,11 @@ echo "Code being to trigger non functional testing"'''
             sleep 45
           }
         }
+        stage('Smoke and Sanity Test') {
+          steps {
+            sleep 120
+          }
+        }
       }
     }
   }
