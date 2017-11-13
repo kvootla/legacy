@@ -71,8 +71,17 @@ echo "Code being simulate for flawless attributes"'''
       }
     }
     stage('Test Pipeline') {
-      steps {
-        sleep 30
+      parallel {
+        stage('Test Pipeline') {
+          steps {
+            sleep 30
+          }
+        }
+        stage('Alpha Testing') {
+          steps {
+            timeout(time: 15)
+          }
+        }
       }
     }
   }
