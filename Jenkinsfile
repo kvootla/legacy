@@ -103,6 +103,12 @@ echo "Code being simulate for flawless attributes"'''
 echo "Code being to trigger functional testing"'''
           }
         }
+        stage('Non-functional Test') {
+          steps {
+            sh '''date 
+echo "Code being to trigger non functional testing"'''
+          }
+        }
       }
     }
   }
