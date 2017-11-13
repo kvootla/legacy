@@ -77,9 +77,9 @@ echo "Code being simulate for flawless attributes"'''
             sleep 15
           }
         }
-        stage('Alpha Testing') {
+        stage('Alpha Test') {
           steps {
-            timeout(time: 15)
+            sleep 30
           }
         }
       }
