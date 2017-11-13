@@ -74,7 +74,7 @@ echo "Code being simulate for flawless attributes"'''
       parallel {
         stage('Test Pipeline') {
           steps {
-            sleep 30
+            sleep 15
           }
         }
         stage('Alpha Testing') {
