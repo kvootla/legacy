@@ -121,5 +121,10 @@ echo "Code being to trigger non functional testing"'''
         }
       }
     }
+    stage('Release Pipeline') {
+      steps {
+        sleep 25
+      }
+    }
   }
 }
