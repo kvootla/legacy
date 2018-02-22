@@ -122,8 +122,17 @@ echo "Code being to trigger non functional testing"'''
       }
     }
     stage('Release Pipeline') {
-      steps {
-        sleep 25
+      parallel {
+        stage('Release Pipeline') {
+          steps {
+            sleep 25
+          }
+        }
+        stage('Pre-release Pipeline') {
+          steps {
+            echo 'Release Pending'
+          }
+        }
       }
     }
   }
